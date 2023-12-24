@@ -1,2 +1,13 @@
 [project]
 name = azouaoui-me
+themes = my-nix
+url = https://azouaoui.me/
+
+[theme_settings]
+githubID = azouaoui-cv
+about = PhD
+email = azouaoui.me@gmail.com
+name = Alexandre Zouaoui
+headerusername = azouaoui
+headerhostname = linux
+profilepicture = mini.jpg
