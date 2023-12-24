@@ -1,0 +1,3 @@
+[submodule "themes/my-nix"]
+	path = themes/my-nix
+	url = https://github.com/azouaoui-cv/my-nix.git
