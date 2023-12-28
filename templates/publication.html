@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+  <h1>{{ this.title }}</h1>
+  <dl>
+    <dt>Date
+    <dd>{{ this.date|dateformat("MMM y") }}
+    <dt>Authors
+    <dd>{{ this.authors }}
+    <dt>Publication type
+    <dd>{{ this.type }}
+  </dl>
+  <h2>Abstract</h2>
+  <div class="abstract">{{ this.abstract }}</div>
+  <h2>Keywords</h2>
+  <div class="keywords">{{ this.keywords }}</div>
+{% endblock %}

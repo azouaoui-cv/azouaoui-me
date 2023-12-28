@@ -1,0 +1,32 @@
+_model: publication
+---
+_template: publication.html
+---
+name: EDAA
+---
+title: Entropic Descent Archetypal Analysis for Blind Hyperspectral Unmixing
+---
+date: 2023-08-01
+---
+type: Journal article (Transactions on Image Processing)
+---
+authors: Alexandre Zouaoui, Gedeon Muhawenayo, Behnood Rasti, Jocelyn Chanussot, Julien Mairal
+---
+abstract:
+In this paper, we introduce a new algorithm based on archetypal analysis for blind hyperspectral unmixing, assuming linear mixing of endmembers. 
+Archetypal analysis is a natural formulation for this task. 
+This method does not require the presence of pure pixels (i.e., pixels containing a single material) but instead represents endmembers as convex combinations of a few pixels present in the original hyperspectral image. 
+Our approach leverages an entropic gradient descent strategy, which (i) provides better solutions for hyperspectral unmixing than traditional archetypal analysis algorithms, and (ii) leads to efficient GPU implementations. 
+Since running a single instance of our algorithm is fast, we also propose an ensembling mechanism along with an appropriate model selection procedure that make our method robust to hyper-parameter choices while keeping the computational complexity reasonable. 
+By using six standard real datasets, we show that our approach outperforms state-of-the-art matrix factorization and recent deep learning methods. 
+We also provide an open-source PyTorch implementation: [code](https://github.com/inria-thoth/EDAA).
+
+---
+keywords:
+
+* Hyperspectral imaging
+* Remote sensing
+* Blind spectral unmixing
+* Non-negative matrix factorization
+* Archetypal analysis
+* Entropic gradient descent

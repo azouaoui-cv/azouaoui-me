@@ -1,0 +1,36 @@
+_model: publication
+---
+_template: publication.html
+---
+name: SUnAA
+---
+title: SUnAA: Sparse Unmixing Using Archetypal Analysis
+---
+date: 2023-06-01
+---
+type: Journal article (Geoscience and Remote Sensing Letters)
+---
+authors: Behnood Rasti, Alexandre Zouaoui, Julien Mairal, Jocelyn Chanussot
+---
+abstract:
+
+This letter introduces a new sparse unmixing technique using archetypal analysis (SUnAA). 
+First, we design a new model based on archetypal analysis (AA). 
+We assume that the endmembers of interest are a convex combination of endmembers provided by a spectral library and that the number of endmembers of interest is known. 
+Then, we propose a minimization problem. 
+Unlike most conventional sparse unmixing methods, here the minimization problem is nonconvex. 
+We minimize the optimization objective iteratively using an active set algorithm. 
+Our method is robust to the initialization and only requires the number of endmembers of interest. 
+SUnAA is evaluated using two simulated datasets for which results confirm its better performance over other conventional and advanced techniques in terms of signal-to-reconstruction error (SRE). 
+SUnAA is also applied to Cuprite dataset and the results are compared visually with the available geological map provided for this dataset. 
+The qualitative assessment demonstrates the successful estimation of the minerals abundances and significantly improves the detection of dominant minerals compared to the conventional regression-based sparse unmixing methods. 
+The Python implementation of SUnAA can be found at: [code](https://github.com/inria-thoth/SUnAA).
+
+---
+keywords:
+
+* Active-set algorithm
+* Archetypal analysis
+* Hyperspectral imaging
+* Semi-supervised unmixing
+* Sparse unmixing

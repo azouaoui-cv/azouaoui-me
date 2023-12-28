@@ -1,6 +1,5 @@
 [project]
-name = azouaoui-me
-themes = my-nix
+name = My Portfolio
 url = https://azouaoui.me/
 
 [theme_settings]
@@ -9,5 +8,5 @@ about = PhD
 email = azouaoui.me@gmail.com
 name = Alexandre Zouaoui
 headerusername = azouaoui
-headerhostname = linux
+headerhostname = portfolio
 profilepicture = mini.jpg

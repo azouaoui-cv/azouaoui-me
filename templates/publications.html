@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+  <h1>Publications</h1>
+  <div class="publications">
+  {% for publication in this.children %}
+    <div class="publication">
+      <h2><a href="{{ publication|url }}">{{ publication.name }}</a>
+        <em>({{ publication.date.year }})</em>
+      </h2>
+      <p><strong>{{ publication.title }}</strong></p>
+    </div>
+  {% endfor %}
+  </div>
+{% endblock %}
