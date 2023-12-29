@@ -1,12 +1,15 @@
 [project]
-name = My Portfolio
+name = Portfolio
 url = https://azouaoui.me/
 
 [theme_settings]
 githubID = azouaoui-cv
-about = PhD
+about = Hi there, it's Alex! I'm a PhD student at Thoth, Inria in Grenoble, France.
 email = azouaoui.me@gmail.com
 name = Alexandre Zouaoui
+linkedInID = alexandre-zouaoui-176512105
+googleScholar = k0fFobUAAAAJ
 headerusername = azouaoui
-headerhostname = portfolio
+headerhostname = me
 profilepicture = mini.jpg
+resume = resume.pdf
